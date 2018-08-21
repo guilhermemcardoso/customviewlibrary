@@ -49,7 +49,7 @@ install {
                 packaging 'aar'
 
                 // Add your description here
-                name 'cardoso.guilherme:swipeprofilecard'
+                name 'guilhermecardoso:swipeprofilecard'
                 description = 'A Tinder like component to show user profiles.'
                 url siteUrl
 
@@ -106,9 +106,9 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = "maven"
+        repo = "SwipeProfileCard"
         // it is the name that appears in bintray when logged
-        name = "cardoso.guilherme:swipeprofilecard"
+        name = "guilhermecardoso:swipeprofilecard"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ['MIT']
